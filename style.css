@@ -1,0 +1,228 @@
+.itemMenu {
+    /* background-color: rgba(0, 128, 247, 0.733); */
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-family: ui-monospace;
+    padding: 8px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-family: ui-monospace;
+    padding: 8px;
+    font-weight: bold;
+}
+.navbar2 {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-family: ui-monospace;
+    padding: 8px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }}
+
+/*.itemMenu:hover {
+    background-color: white;
+    color: rgb(255, 2, 2);
+    transition: 0.4s linear;
+    cursor: pointer;
+}*/
+
+a {
+    text-decoration: none;
+}
+
+.paragrafo-card {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: ui-monospace;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    color: rgb(1, 136, 255);
+}
+
+.container {
+    width: 20%;
+    display: flex;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.nvidia {
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
+
+.teste:hover {
+    cursor: pointer;
+    color: rgb(30, 247, 1);
+    transition: 0.4s linear;
+    cursor: pointer;
+}
+
+.nvidia:hover { 
+    
+    cursor: pointer;
+    background-color: rgb(30, 247, 1);
+    transition: 0.4s linear;
+    cursor: pointer;
+   
+}
+
+.amd{
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.amd:hover{
+   
+    cursor: pointer;
+    background-color: rgb(247, 1, 1);
+    transition: 0.4s linear;
+    cursor: pointer;
+    
+}
+
+.container-geral {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.images {
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.paragrafo-imagens {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: cursive;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+}
+
+.images:hover {
+    cursor: pointer;
+    background-color: rgb(247, 1, 1);
+    transition: 0.4s linear;
+    cursor: pointer;
+}
+
+
+.teste-vermelho {
+    background-color: lightgray;
+    font-family: serif;
+    border: 2px solid black;
+    /* border-radius: 20px 0px 20px 0px; */
+}
+
+.teste-azul:hover {
+    cursor: pointer;
+    color: rgb(1, 177, 247);
+    transition: 0.4s linear;
+    cursor: pointer;
+}
+
+.lista {
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.lista:hover {
+    cursor: pointer;
+    background-color: rgb(1, 177, 247);
+    transition: 0.4s linear;
+    cursor: pointer;
+
+}
+
+.notebook {
+    background-color: lightgray;
+    display: block;
+    border: 2px solid black;
+    border-radius: 20px 20px 20px 20px;
+    justify-content: space-around;
+    font-family: serif;
+    width: 30%;
+    height: 30%;
+}
+
+.notebook:hover {
+    cursor: pointer;
+    background-color: white;
+    transition: 0.3s linear;
+    cursor: pointer;
+
+}
+
+.titulo {
+    font-size: 40px;
+    font-family: fantasy;
+    display: flex;
+    justify-content: space-around;
+}
+
+.intel{
+    text-align: center;
+}
+
+.intel:hover{
+    cursor: pointer;
+    background-color: rgb(1, 67, 247);
+    transition: 0.4s linear;
+    cursor: pointer;
+}
+
+.crucial{
+    text-align: center;
+}
+
+.crucial:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+
+.container-secundario{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.container-terciario {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
